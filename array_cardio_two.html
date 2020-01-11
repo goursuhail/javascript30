@@ -1,0 +1,95 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Array Cardio Two</title>
+</head>
+<body>
+
+<p><em>Psst: have a look at the JavaScript Console</em></p>
+
+// Array Cardio two
+
+<script>
+    const people = [
+        { name: 'Wes', year: 1988 },
+        { name: 'Kait', year: 1986 },
+        { name: 'Irv', year: 1970 },
+        { name: 'Lux', year: 2015 }
+    ];
+
+    const comments = [
+        { text: 'Love this!', id: 523423 },
+        { text: 'Super good', id: 823423 },
+        { text: 'You are the best', id: 2039842 },
+        { text: 'Ramen is my fav food ever', id: 123523 },
+        { text: 'Nice Nice Nice!', id: 542328 }
+    ];
+
+    // some and every checks
+    // array.prototype.some  is atleast one person ?
+
+    const isadult = people.some(function (person) {
+
+        const currentYear = (new Date()).getFullYear();
+
+        if (currentYear - person.year >= 19){
+
+            return true;
+        }
+    });
+    //console.log(isadult);
+
+    // array.prototype.every
+
+    const alladults = people.every(function (person) {
+
+        const currentYear = (new Date()).getFullYear();
+        
+        if (currentYear - person.year >= 19){
+
+            return false;
+        }
+    });
+
+    //console.log(alladults);
+
+    // Array.prototype.find()
+    // Find is like filter, but instead returns just the one you are looking for
+    // find the comment with the ID of 823423
+
+    const comment = comments.find(function (cid) {
+        
+        if (cid.id === 542328) {
+
+             return true;
+        }
+    })
+
+    //console.log(comment);
+
+    // array.prototype.findindex()
+
+    const index = comments.findIndex(function (cid) {
+
+        if (cid.id === 542328) {
+
+            return true;
+        }
+    })
+
+    //console.log(index);
+
+
+    // comments.splice(index, 1);
+
+    const newComments = [
+        ...comments.slice(0, index),
+        ...comments.slice(index + 1)
+    ];
+
+    console.log(newComments);
+
+</script>
+</body>
+</html>
