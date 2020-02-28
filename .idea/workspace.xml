@@ -10,20 +10,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/key_detection.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/slide_on_scroll.html">
+        <entry file="file://$PROJECT_DIR$/object_array.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="137" selection-start-line="137" selection-end-line="137" />
+            <state relative-caret-position="402">
+              <caret line="101" selection-start-line="101" selection-end-line="101" />
             </state>
           </provider>
         </entry>
@@ -54,10 +45,11 @@
         <option value="$PROJECT_DIR$/assets/js/custom_video.js" />
         <option value="$PROJECT_DIR$/key_detection.html" />
         <option value="$PROJECT_DIR$/slide_on_scroll.html" />
+        <option value="$PROJECT_DIR$/object_array.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="38" />
     <option name="y" value="20" />
     <option name="width" value="1318" />
@@ -146,16 +138,18 @@
       <workItem from="1580182151410" duration="1965000" />
       <workItem from="1580463060720" duration="3566000" />
       <workItem from="1580475749867" duration="2955000" />
+      <workItem from="1580576055827" duration="4520000" />
+      <workItem from="1580635764546" duration="3261000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101625000" />
+    <option name="totallyTimeSpent" value="109406000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="38" y="20" width="1318" height="688" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28441754" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30842608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -292,8 +286,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/slide_on_scroll.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="137" selection-start-line="137" selection-end-line="137" />
+        <state relative-caret-position="101">
+          <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object_array.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
         </state>
       </provider>
     </entry>
